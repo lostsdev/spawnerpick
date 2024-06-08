@@ -1,0 +1,16 @@
+name: SpawnerPickaxe
+version: '1.0'
+main: org.lostslvtt.darateria.SpawnerPickaxe
+api-version: '1.18'
+author: lostslvtt
+depend: [WorldGuard]
+
+commands:
+  givepickaxe:
+    description: Gives a pickaxe that can only break spawners
+    usage: /givepickaxe <player>
+    permission: darateria.givepick
+
+permissions:
+  darateria.givepick:
+    default: op
